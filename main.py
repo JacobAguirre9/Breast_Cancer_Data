@@ -8,11 +8,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 # importing our cancer dataset
-dataset = pd.read_csv(breast-cancer-wisconsin.csv)
-X = dataset.iloc[:, 1:31].values
-Y = dataset.iloc[:, 31].values
+df = pd.read_csv('wdbc.csv')
 
-dataset.head()
+# Checking to see the first 5 rows of data are correct
+print(df.head(5))
+
+
+# Statistical analysis code block
+
 
 
 print("Goodbye World")
